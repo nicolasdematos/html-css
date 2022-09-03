@@ -1,0 +1,36 @@
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#searchbar{
+    box-shadow: 0px 0px 3px 1px #c6c6c6;
+    border-radius: 20px;
+    background-color: white;
+}
+#searchbar > p{
+    font-size: 2em;
+    margin-left: 50px;
+}
+#space{
+    height: 100px;
+    background-color: gray;
+}
+.page{
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px #c6c6c6;
+}
+.page > h2{
+    color: blue;
+    padding: 15px;
+    font-weight: normal;
+}
+.page > p{
+    font-size: 1.2em;
+    padding: 15px;
+}
+.videoplace > img{
+    width: 100px;
+    height: 70px;
+    padding-left: 20px;
+}

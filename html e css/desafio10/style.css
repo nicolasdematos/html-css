@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px;
+    background-color: bisque;
+}
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 1000px;
+    box-shadow: 0px 5px 5px 5px rgb(203, 182, 156);
+    align-content: center;
+}
+header{
+    color: white;
+    background-image: linear-gradient(180deg, rgb(115, 189, 115), green);
+    text-align: center;
+    height: 200px;
+}
+.title{
+    margin: 0px;
+    padding: 30px;
+    text-shadow: 2px 2px 1px black;
+}
+nav{
+    text-align: left;
+    background-color: green;
+    display: flex;
+    box-shadow: 0px 5px 5px rgb(203, 182, 156);
+}
+main img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+main > video{
+    margin: auto;
+}
+main > h1{
+    font-family: 'Android';
+    color: green;
+}
+main > h2{
+    font-family: 'Android';
+    color: green;
+    background-image: linear-gradient(to right, lightgreen, rgba(144, 238, 144, 0));
+}
+main > *{
+    margin-top: 20px;
+    padding: 20px;
+}
+.link{
+    background-color: green;
+    color: lightgreen;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: lightgreen;
+    color: green;
+    transition-duration: 0.5s;
+}
+footer{
+    height: 20;
+    background-image: linear-gradient(lightpink, pink);
+    padding: 40px;
+}
+footer > h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+footer > h2{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+#extra{
+    height: 400px;
+    background-color: lightgreen;
+    margin: 0px 20px;
+}
+#extratitle{
+    height: 30px;
+    background-color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+#extratitle > h2{
+    color: white;
+}
+#div1{
+    display: inline-block;
+    background-color: aqua;
+    columns: 2;
+}
+#pequeno{
+    max-width: 400px;
+}
